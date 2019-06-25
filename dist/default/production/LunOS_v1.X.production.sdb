@@ -1,0 +1,557 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"158 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\int0_test.c
+[e E2532 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+FINISHED 3
+WAITING_PIPE 4
+WAITING_SEM 5
+]
+"10 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\kernel.c
+[e E4 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+FINISHED 3
+WAITING_PIPE 4
+WAITING_SEM 5
+]
+"42 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\main.c
+[e E2528 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+FINISHED 3
+WAITING_PIPE 4
+WAITING_SEM 5
+]
+"25 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\semaphore.c
+[e E4 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+FINISHED 3
+WAITING_PIPE 4
+WAITING_SEM 5
+]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `R(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `R(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `R(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `R(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `R(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `R(f  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `R(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `R(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `R(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `R(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `R(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `R(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `R(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `R(uo  1 e 8 0 ]
+"17 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\car.c
+[v _micro_setup micro_setup `R(v  1 e 1 0 ]
+"33
+[v _task_keyboard task_keyboard `R(v  1 e 1 0 ]
+"56
+[v _task_2heat task_2heat `R(v  1 e 1 0 ]
+"146
+[v __mod _mod `R(i  1 e 2 0 ]
+"154
+[v __div _div `R(i  1 e 2 0 ]
+"7 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\display7.c
+[v _dp_update dp_update `R(v  1 e 1 0 ]
+"26
+[v _set_number set_number `R(v  1 e 1 0 ]
+"15 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\int0_test.c
+[v _config_INT0 config_INT0 `R(v  1 e 1 0 ]
+"30
+[v _config_timer0 config_timer0 `R(v  1 e 1 0 ]
+"64
+[v _ISR_timer0 ISR_timer0 `IIH(v  1 e 1 0 ]
+"14 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\kernel.c
+[v _lunos_createTask lunos_createTask `R(v  1 e 1 0 ]
+"30
+[v _lunos_delayTask lunos_delayTask `R(v  1 e 1 0 ]
+"50
+[v _lunos_init lunos_init `R(v  1 e 1 0 ]
+"57
+[v _scheduler scheduler `R(ui  1 e 2 0 ]
+"65
+[v _dispatcher dispatcher `R(v  1 e 1 0 ]
+"77
+[v _round_robin round_robin `R(ui  1 e 2 0 ]
+"100
+[v _delay_decrement delay_decrement `R(v  1 e 1 0 ]
+"116
+[v _task_idle task_idle `R(v  1 e 1 0 ]
+"18 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\main.c
+[v _main main `R(v  1 e 1 0 ]
+"9 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\pipe.c
+[v _pipe_create pipe_create `R(v  1 e 1 0 ]
+"17
+[v _pipe_write pipe_write `R(v  1 e 1 0 ]
+"32
+[v _pipe_read pipe_read `R(v  1 e 1 0 ]
+"10 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\semaphore.c
+[v _sem_init sem_init `R(v  1 e 1 0 ]
+"20
+[v _sem_wait sem_wait `R(v  1 e 1 0 ]
+"33
+[v _sem_post sem_post `R(v  1 e 1 0 ]
+"46
+[v _sem_get_value sem_get_value `R(i  1 e 2 0 ]
+"191 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\sralloc.c
+[v _SRAMalloc SRAMalloc `R(*.39uc  1 e 2 0 ]
+"313
+[v _SRAMInitHeap SRAMInitHeap `R(v  1 e 1 0 ]
+"359
+[v __SRAMmerge _SRAMmerge `R(uc  1 e 1 0 ]
+"33 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X/car.h
+[v _started started `ui  1 e 2 0 ]
+"34
+[v _count count `ui  1 e 2 0 ]
+"35
+[v _time time `ui  1 e 2 0 ]
+"36
+[v _dezena dezena `ui  1 e 2 0 ]
+"37
+[v _unidade unidade `ui  1 e 2 0 ]
+[s S24 semaphore 14 `i 1 contador 2 0 `[4]ui 1 bloqued_Queue 8 2 `ui 1 bloqued_size 2 10 `ui 1 task_to_ready 2 12 ]
+"39
+[v _s_count s_count `S24  1 e 14 0 ]
+"40
+[v _s_time s_time `S24  1 e 14 0 ]
+"41
+[v _s_started s_started `S24  1 e 14 0 ]
+"10 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X/display7.h
+[v _indice indice `i  1 e 2 0 ]
+"14 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X/kernel.h
+[v _who who `i  1 e 2 0 ]
+"15
+[v _size size `i  1 e 2 0 ]
+[s S186 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"315 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f4520.h
+[s S195 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S204 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S213 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S215 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S218 . 1 `S186 1 . 1 0 `S195 1 . 1 0 `S204 1 . 1 0 `S213 1 . 1 0 `S215 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES218  1 e 1 @3969 ]
+"450
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S262 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"497
+[s S271 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S280 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S289 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+]
+[s S293 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S297 . 1 `S262 1 . 1 0 `S271 1 . 1 0 `S280 1 . 1 0 `S289 1 . 1 0 `S293 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES297  1 e 1 @3970 ]
+[s S38 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"669
+[s S348 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S357 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S362 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S365 . 1 `S38 1 . 1 0 `S348 1 . 1 0 `S357 1 . 1 0 `S362 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES365  1 e 1 @3971 ]
+"1699
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S29 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2175
+[u S47 . 1 `S29 1 . 1 0 `S38 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES47  1 e 1 @3989 ]
+[s S153 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6191
+[s S160 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S167 . 1 `S153 1 . 1 0 `S160 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES167  1 e 1 @4053 ]
+"6258
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6272
+[v _STATUS STATUS `VEuc  1 e 1 @4056 ]
+"6399
+[v _BSR BSR `VEuc  1 e 1 @4064 ]
+"6462
+[v _WREG WREG `VEuc  1 e 1 @4072 ]
+[s S118 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6647
+[s S121 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S130 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S133 . 1 `S118 1 . 1 0 `S121 1 . 1 0 `S130 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES133  1 e 1 @4081 ]
+[s S69 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6724
+[s S78 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S87 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S91 . 1 `S69 1 . 1 0 `S78 1 . 1 0 `S87 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES91  1 e 1 @4082 ]
+"6904
+[v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
+"6977
+[v _TOS TOS `VEum  1 e 3 @4093 ]
+"6985
+[v _TOSL TOSL `VEuc  1 e 1 @4093 ]
+"6992
+[v _TOSH TOSH `VEuc  1 e 1 @4094 ]
+"6999
+[v _TOSU TOSU `VEuc  1 e 1 @4095 ]
+"10 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\car.c
+[s S765 pipe 10 `[1]ui 1 pipe_data 2 0 `ui 1 index_write 2 2 `ui 1 index_read 2 4 `ui 1 p_size 2 6 `*.39S24 1 s 2 8 ]
+[v _pipe_time pipe_time `S765  1 e 10 0 ]
+"11
+[v _s_pipe_time s_pipe_time `S24  1 e 14 0 ]
+"13
+[v _pipe_start pipe_start `S765  1 e 10 0 ]
+"14
+[v _s_pipe_start s_pipe_start `S24  1 e 14 0 ]
+"12 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\int0_test.c
+[v _quantum quantum `i  1 e 2 0 ]
+"13
+[v _timer_index timer_index `i  1 e 2 0 ]
+[s S429 data_stack 3 `uc 1 TOSU_reg 1 0 `uc 1 TOSL_reg 1 1 `uc 1 TOSH_reg 1 2 ]
+"10 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\kernel.c
+[s S433 stack 95 `[31]S429 1 h_stack 93 0 `i 1 stack_level 2 93 ]
+[s S437 pcb 108 `ui 1 task_id 2 0 `ui 1 task_prior 2 2 `uc 1 PC_reg 1 4 `uc 1 W_reg 1 5 `uc 1 STATUS_reg 1 6 `uc 1 BSR_reg 1 7 `E2532 1 task_state 1 8 `S433 1 task_stack 95 9 `*.37R(v 1 task_f 2 104 `ui 1 task_delay_time 2 106 ]
+[s S448 r_queue 544 `[5]S437 1 tasks 540 0 `ui 1 tasks_installed 2 540 `i 1 task_running 2 542 ]
+[v _ready_queue ready_queue `S448  1 e 544 0 ]
+"144 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\sralloc.c
+[v __uDynamicHeap _uDynamicHeap `[512]uc  1 e 512 0 ]
+"15 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\tasks.c
+[v _teste_1 teste_1 `S24  1 e 14 0 ]
+[v _teste_2 teste_2 `S24  1 e 14 0 ]
+[v _s_pipe s_pipe `S24  1 e 14 0 ]
+"16
+[v _p p `S765  1 e 10 0 ]
+"18 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\main.c
+[v _main main `R(v  1 e 1 0 ]
+{
+"47
+} 0
+"9 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\pipe.c
+[v _pipe_create pipe_create `R(v  1 e 1 0 ]
+{
+[s S24 semaphore 14 `i 1 contador 2 0 `[4]ui 1 bloqued_Queue 8 2 `ui 1 bloqued_size 2 10 `ui 1 task_to_ready 2 12 ]
+[s S765 pipe 10 `[1]ui 1 pipe_data 2 0 `ui 1 index_write 2 2 `ui 1 index_read 2 4 `ui 1 p_size 2 6 `*.39S24 1 s 2 8 ]
+[v _p p `*.39S765  1 p 2 -2 ]
+[v _s s `*.39S24  1 p 2 -4 ]
+"15
+} 0
+"10 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\semaphore.c
+[v _sem_init sem_init `R(v  1 e 1 0 ]
+{
+[s S24 semaphore 14 `i 1 contador 2 0 `[4]ui 1 bloqued_Queue 8 2 `ui 1 bloqued_size 2 10 `ui 1 task_to_ready 2 12 ]
+[v _s s `*.39S24  1 p 2 -2 ]
+[v _valor valor `i  1 p 2 -4 ]
+"18
+} 0
+"50 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\kernel.c
+[v _lunos_init lunos_init `R(v  1 e 1 0 ]
+{
+"55
+} 0
+"14
+[v _lunos_createTask lunos_createTask `R(v  1 e 1 0 ]
+{
+[s S429 data_stack 3 `uc 1 TOSU_reg 1 0 `uc 1 TOSL_reg 1 1 `uc 1 TOSH_reg 1 2 ]
+"15
+[s S433 stack 95 `[31]S429 1 h_stack 93 0 `i 1 stack_level 2 93 ]
+[s S437 pcb 108 `ui 1 task_id 2 0 `ui 1 task_prior 2 2 `uc 1 PC_reg 1 4 `uc 1 W_reg 1 5 `uc 1 STATUS_reg 1 6 `uc 1 BSR_reg 1 7 `E2532 1 task_state 1 8 `S433 1 task_stack 95 9 `*.37R(v 1 task_f 2 104 `ui 1 task_delay_time 2 106 ]
+[v _new_task new_task `S437  1 a 108 0 ]
+"14
+[v _prior prior `ui  1 p 2 -2 ]
+[v _f f `*.37R(v  1 p 2 -4 ]
+"28
+} 108
+"313 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\sralloc.c
+[v _SRAMInitHeap SRAMInitHeap `R(v  1 e 1 0 ]
+{
+"316
+[v _count count `ui  1 a 2 0 ]
+"315
+[v _pHeap pHeap `*.39uc  1 a 2 2 ]
+"336
+} 4
+"65 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\kernel.c
+[v _dispatcher dispatcher `R(v  1 e 1 0 ]
+{
+[v _state state `E4  1 p 1 -1 ]
+"75
+} 0
+"57
+[v _scheduler scheduler `R(ui  1 e 2 0 ]
+{
+"63
+} 0
+"77
+[v _round_robin round_robin `R(ui  1 e 2 0 ]
+{
+"78
+[v _next_task_to_run next_task_to_run `i  1 a 2 0 ]
+"85
+} 2
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `R(ui  1 e 2 0 ]
+{
+"10
+[v _counter counter `uc  1 a 1 0 ]
+"7
+[v _dividend dividend `ui  1 p 2 -2 ]
+[v _divisor divisor `ui  1 p 2 -4 ]
+"25
+} 1
+"30 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\int0_test.c
+[v _config_timer0 config_timer0 `R(v  1 e 1 0 ]
+{
+"42
+} 0
+"15
+[v _config_INT0 config_INT0 `R(v  1 e 1 0 ]
+{
+"28
+} 0
+"116 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\kernel.c
+[v _task_idle task_idle `R(v  1 e 1 0 ]
+{
+"119
+} 0
+"56 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\car.c
+[v _task_2heat task_2heat `R(v  1 e 1 0 ]
+{
+"72
+} 0
+"30 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\kernel.c
+[v _lunos_delayTask lunos_delayTask `R(v  1 e 1 0 ]
+{
+[v _time time `ui  1 p 2 -2 ]
+"37
+} 0
+"17 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\car.c
+[v _micro_setup micro_setup `R(v  1 e 1 0 ]
+{
+"31
+} 0
+"33
+[v _task_keyboard task_keyboard `R(v  1 e 1 0 ]
+{
+"54
+} 0
+"20 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\semaphore.c
+[v _sem_wait sem_wait `R(v  1 e 1 0 ]
+{
+[s S24 semaphore 14 `i 1 contador 2 0 `[4]ui 1 bloqued_Queue 8 2 `ui 1 bloqued_size 2 10 `ui 1 task_to_ready 2 12 ]
+[v _s s `*.39S24  1 p 2 -2 ]
+"31
+} 0
+"33
+[v _sem_post sem_post `R(v  1 e 1 0 ]
+{
+[s S24 semaphore 14 `i 1 contador 2 0 `[4]ui 1 bloqued_Queue 8 2 `ui 1 bloqued_size 2 10 `ui 1 task_to_ready 2 12 ]
+[v _s s `*.39S24  1 p 2 -2 ]
+"44
+} 0
+"64 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\int0_test.c
+[v _ISR_timer0 ISR_timer0 `IIH(v  1 e 1 0 ]
+{
+"175
+} 0
+"7 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\display7.c
+[v _dp_update dp_update `R(v  1 e 1 0 ]
+{
+"24
+} 0
+"26
+[v _set_number set_number `R(v  1 e 1 0 ]
+{
+[v _a a `i  1 p 2 -2 ]
+"64
+} 0
+"100 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\kernel.c
+[v _delay_decrement delay_decrement `R(v  1 e 1 0 ]
+{
+"101
+[v _i i `i  1 a 2 0 ]
+"114
+} 2
+"146 C:\Users\Alecsander\Downloads\paaaaaaa\LunOS_v1.X\car.c
+[v __mod _mod `R(i  1 e 2 0 ]
+{
+"147
+[v _result result `i  1 a 2 0 ]
+"146
+[v _number number `i  1 p 2 -2 ]
+[v _div div `i  1 p 2 -4 ]
+"152
+} 2
+"154
+[v __div _div `R(i  1 e 2 0 ]
+{
+"155
+[v _result result `i  1 a 2 0 ]
+"154
+[v _number number `i  1 p 2 -2 ]
+[v _div div `i  1 p 2 -4 ]
+"161
+} 2
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `R(ui  1 e 2 0 ]
+{
+"17
+[v _product product `ui  1 a 2 0 ]
+"15
+[v _multiplier multiplier `ui  1 p 2 -2 ]
+[v _multiplicand multiplicand `ui  1 p 2 -4 ]
+"53
+} 2
