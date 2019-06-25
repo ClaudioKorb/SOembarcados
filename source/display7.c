@@ -1,6 +1,6 @@
 #include <pic18f4520.h>
 
-#include"display7.h"
+#include"../libraries/display7.h"
 
 
 

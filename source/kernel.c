@@ -2,9 +2,9 @@
  * LunOS - Luan Operating System
  */
 
-#include "types.h"
-#include "kernel.h"
-#include "sralloc.h"
+#include "../libraries/types.h"
+#include "../libraries/kernel.h"
+#include "../libraries/sralloc.h"
 
 // Fila de aptos
 t_r_queue ready_queue;

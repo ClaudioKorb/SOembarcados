@@ -2,8 +2,8 @@
  * LunOS - Luan Operating System
  */
 
-#include "semaphore.h"
-#include "kernel.h"
+#include "../libraries/semaphore.h"
+#include "../libraries/kernel.h"
 
 extern t_r_queue ready_queue;
 

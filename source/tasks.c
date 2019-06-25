@@ -3,12 +3,12 @@
  */
 
 #include <pic18f4520.h>
-#include "tasks.h"
+#include "../libraries/tasks.h"
 #include <xc.h>
-#include "semaphore.h"
-#include "kernel.h"
-#include "pipe.h"
-#include "sralloc.h"
+#include "../libraries/semaphore.h"
+#include "../libraries/kernel.h"
+#include "../libraries/pipe.h"
+#include "../libraries/sralloc.h"
 
 unsigned char* mem;
 

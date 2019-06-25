@@ -4,9 +4,9 @@
 
 #include <pic18f4520.h>
 
-#include "int0_test.h"
-#include "kernel.h"
-#include "car.h"
+#include "../libraries/int0_test.h"
+#include "../libraries/kernel.h"
+#include "../libraries/car.h"
 
 extern t_r_queue ready_queue;
 int quantum = QUANTUM;

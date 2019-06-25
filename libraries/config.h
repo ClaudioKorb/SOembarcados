@@ -13,6 +13,8 @@
 #define PRIOR_SCH   OFF
 #define QUANTUM     10
 
+//#define ARCHITECTURE 8 
+#define ARCHITECTURE 16
 
 #endif	/* CONFIG_H */
 

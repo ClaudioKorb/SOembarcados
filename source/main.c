@@ -3,11 +3,11 @@
  */
 
 #include <xc.h>
-#include "kernel.h"
-#include "tasks.h"
-#include "int0_test.h"
-#include "semaphore.h"
-#include "car.h"
+#include "../libraries/kernel.h"
+#include "../libraries/tasks.h"
+#include "../libraries/int0_test.h"
+#include "../libraries/semaphore.h"
+#include "../libraries/car.h"
 
 #pragma config PBADEN = OFF
 #pragma config WDT    = OFF

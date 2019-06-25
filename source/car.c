@@ -1,9 +1,9 @@
-#include "car.h"
+#include "../libraries/car.h"
 #include <conio.h>
 #include<stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "display7.h"
+#include "../libraries/display7.h"
 
     unsigned int data = 0;
 

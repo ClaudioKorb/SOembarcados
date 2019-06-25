@@ -2,9 +2,9 @@
  * LunOS - Luan Operating System
  */
 
-#include "pipe.h"
-#include "kernel.h"
-#include "semaphore.h"
+#include "../libraries/pipe.h"
+#include "../libraries/kernel.h"
+#include "../libraries/semaphore.h"
 
 void pipe_create(pipe_t *p, sem_t *s) {
   p->index_write = 0;
